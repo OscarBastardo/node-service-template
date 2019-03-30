@@ -1,8 +1,8 @@
-# Node+TypeScript+Jest Template
-Template project to speed up developing Node applications with TypeScript and Jest.
+# Node+TypeScript+Koa+Jest Template
+Template project to speed up developing Node applications with TypeScript, Koa and Jest.
 
 ## Instructions
-1. Install packages using `yarn` or `npm`
+1. Install packages using `yarn` or `npm install`
 
 ### For development
 2. Run tests in watch mode with `yarn test`
@@ -13,5 +13,5 @@ Template project to speed up developing Node applications with TypeScript and Je
 5. Start application with `yarn start`
 
 ## TODO
-1. Add sample Express API with tests
+1. Run unit and integration tests separately
 2. Dockerise
