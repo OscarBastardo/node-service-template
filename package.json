@@ -8,6 +8,8 @@
     "lint": "tslint src/**/*.ts",
     "dev": "nodemon --exec ts-node -r tsconfig-paths/register src/bin/index.ts --watch src",
     "test": "jest --watch",
+    "test:unit": "jest --watch --testPathPattern=\\.unit\\.spec\\.ts$",
+    "test:integration": "jest --watch --testPathPattern=\\.int\\.spec\\.ts$",
     "coverage": "jest --coverage",
     "build": "rimraf dist && tsc && ef-tspm",
     "start": "node dist/bin/index.js"
