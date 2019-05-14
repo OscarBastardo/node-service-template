@@ -6,7 +6,7 @@ function getSampleRoutes() {
   router.get('/world', (ctx) => {
     ctx.status = 200;
     ctx.body = {
-      data: 'Hello World'
+      data: 'Hello World',
     };
   });
 
