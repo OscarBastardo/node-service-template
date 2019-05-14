@@ -7,10 +7,10 @@
     "allowSyntheticDefaultImports": true,
     "baseUrl": ".",
     "paths": {
-      "routes/*": [ "src/routes/*" ],
+      "routes/*": [ "src/web/routes/*" ],
       "test/*": [ "src/test/*" ],
       "typings/*": [ "src/typings/*" ],
-      "app/*": [ "src/app/*"]
+      "web/*": [ "src/web/*"]
     }
   },
   "include": [

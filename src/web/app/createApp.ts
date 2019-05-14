@@ -1,7 +1,7 @@
 import * as Koa from 'koa';
 
-import getRouter from 'routes/getRouter';
-import handleError from './middleware/handleError';
+import getRouter from 'web/routes/getRouter';
+import handleError from 'web/middleware/handleError';
 
 function createApp() {
   const app = new Koa();

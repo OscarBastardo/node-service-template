@@ -1,6 +1,6 @@
 import * as dotenv from 'dotenv';
 
-import createApp from 'src/app/createApp';
+import createApp from 'web/app/createApp';
 
 dotenv.config();
 
