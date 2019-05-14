@@ -1,9 +1,9 @@
 import * as request from 'supertest';
-import createServer from 'server/createServer';
+import createApp from 'src/app/createApp';
 
 describe('GET /hello/world', () => {
   it('should respond 200 OK with Hello World body', async () => {
-    const server = createServer();
+    const server = createApp();
     const app = server.listen(5000);
     const response = await request(app).get('/hello/world');
     expect(response.status).toEqual(200);

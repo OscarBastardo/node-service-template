@@ -10,7 +10,7 @@
       "routes/*": [ "src/routes/*" ],
       "test/*": [ "src/test/*" ],
       "typings/*": [ "src/typings/*" ],
-      "server/*": [ "src/server/*"]
+      "app/*": [ "src/app/*"]
     }
   },
   "include": [
