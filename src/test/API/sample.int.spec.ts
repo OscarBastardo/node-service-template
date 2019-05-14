@@ -1,5 +1,5 @@
 import * as request from 'supertest';
-import createServer from '../../server/createServer';
+import createServer from 'server/createServer';
 
 describe('GET /hello/world', () => {
   it('should respond 200 OK with Hello World body', async () => {

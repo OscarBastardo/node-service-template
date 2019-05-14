@@ -9,7 +9,7 @@ describe('handleError', () => {
       }
     };
     const next = () => {
-      throw new Error(message)
+      throw new Error(message);
     };
     await handleError(ctx, next);
     
